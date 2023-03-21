@@ -17,7 +17,9 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 // Write your code here 👇
 
 function kata1() {
-
+    for (let i = 0; i < numbers.length; i++) {
+        console.log(numbers[i]);
+    }
 }
 kata1();
 
@@ -29,7 +31,14 @@ console.log("Exercise Two");
 // Write your code here 👇
 
 function kata2() {
-
+    let underTwenty = [];
+    for (let i = 0; i < numbers.length; i++) {
+        let currentNumber = numbers[i]
+        if (currentNumber < 20) {
+            underTwenty.push(currentNumber);
+        }
+    }
+    console.log(underTwenty);
 }
 kata2();
 
@@ -43,7 +52,11 @@ console.log("Exercise Three");
 // Write your code here 👇
 
 function kata3() {
-
+    let result = 1;
+    for (let i = 0; i < numbers.length; i++) {
+        result *= numbers[i];
+    }
+    console.log(result);
 }
 kata3();
 
@@ -57,7 +70,14 @@ console.log("Exercise Four");
 // Write your code here 👇
 
 function kata4() {
-
+    let largestNumber = 0;
+    for (i = 0; i < numbers.length; i++) {
+        let currentNumber = numbers[i];
+        if (currentNumber > largestNumber) {
+            largestNumber = currentNumber;
+        }
+    }
+    console.log(largestNumber);
 }
 kata4();
 
@@ -70,7 +90,14 @@ console.log("Exercise Five");
 // Write your code here 👇
 
 function kata5() {
-
+    let tenAbove = [];
+    for (i = 0; i < numbers.length; i++) {
+        let currentNumber = numbers[i];
+        if (currentNumber >= 10) {
+            tenAbove.push(currentNumber);
+        }
+    }
+    console.log(tenAbove);
 }
 kata5();
 
