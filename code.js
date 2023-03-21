@@ -52,7 +52,11 @@ console.log("Exercise Three");
 // Write your code here 👇
 
 function kata3() {
-
+    let result = 1;
+    for (let i = 0; i < numbers.length; i++) {
+        result *= numbers[i];
+    }
+    console.log(result);
 }
 kata3();
 
