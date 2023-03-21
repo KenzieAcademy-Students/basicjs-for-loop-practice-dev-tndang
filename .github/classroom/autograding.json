@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "For Loop Activity Exercise 1",
+      "setup": "",
+      "run": "node code.js",
+      "input": "",
+      "output": "Exercise One\\n22\\n15\\n10\\n19\\n36\\n2\\n5\\n20",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "For Loop Activity Exercise 2",
+      "setup": "",
+      "run": "node code.js",
+      "input": "",
+      "output": "Exercise Two\\n15\\n10\\n19\\n2\\n5",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "For Loop Activity Exercise 3",
+      "setup": "",
+      "run": "node code.js",
+      "input": "",
+      "output": "Exercise Three\\n451440000",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "For Loop Activity Exercise 4",
+      "setup": "",
+      "run": "node code.js",
+      "input": "",
+      "output": "Exercise Four\\n36",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "For Loop Activity Exercise 5",
+      "setup": "",
+      "run": "node code.js",
+      "input": "",
+      "output": "[ 22, 15, 10, 19, 36, 20 ]",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
