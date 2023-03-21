@@ -70,7 +70,14 @@ console.log("Exercise Four");
 // Write your code here 👇
 
 function kata4() {
-
+    let largestNumber = 0;
+    for (i = 0; i < numbers.length; i++) {
+        let currentNumber = numbers[i];
+        if (currentNumber > largestNumber) {
+            largestNumber = currentNumber;
+        }
+    }
+    console.log(largestNumber);
 }
 kata4();
 
