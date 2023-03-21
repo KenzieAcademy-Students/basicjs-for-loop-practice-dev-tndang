@@ -17,7 +17,9 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 // Write your code here 👇
 
 function kata1() {
-
+    for (let i = 0; i < numbers.length; i++) {
+        console.log(numbers[i]);
+    }
 }
 kata1();
 
