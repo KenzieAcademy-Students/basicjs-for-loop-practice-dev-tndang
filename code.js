@@ -90,7 +90,14 @@ console.log("Exercise Five");
 // Write your code here 👇
 
 function kata5() {
-
+    let tenAbove = [];
+    for (i = 0; i < numbers.length; i++) {
+        let currentNumber = numbers[i];
+        if (currentNumber >= 10) {
+            tenAbove.push(currentNumber);
+        }
+    }
+    console.log(tenAbove);
 }
 kata5();
 
