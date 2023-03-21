@@ -31,7 +31,14 @@ console.log("Exercise Two");
 // Write your code here 👇
 
 function kata2() {
-
+    let underTwenty = [];
+    for (let i = 0; i < numbers.length; i++) {
+        let currentNumber = numbers[i]
+        if (currentNumber < 20) {
+            underTwenty.push(currentNumber);
+        }
+    }
+    console.log(underTwenty);
 }
 kata2();
 
